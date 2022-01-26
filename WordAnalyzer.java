@@ -5,7 +5,6 @@ public class WordAnalyzer
 {
    /**
     * Constructs an analyzer for a given word.
-    * @param aWord the word to be analyzed 
     */
    public WordAnalyzer(String aWord)
    {
@@ -13,10 +12,7 @@ public class WordAnalyzer
    }
 
    /**
-    * Gets the first repeated character. A character is <i>repeated</i>
-    * if it occurs at least twice in adjacent positions. For example,
-    * 'l' is repeated in "hollow", but 'o' is not. 
-    * @return the first repeated character, or 0 if none found
+    * Gets the first repeated character. 
     */
    public char firstRepeatedCharacter()
    {
@@ -30,10 +26,7 @@ public class WordAnalyzer
    }
 
    /**
-    * Gets the first multiply occuring character. A character is <i>multiple</i>
-    * if it occurs at least twice in the word, not necessarily in adjacent positions. 
-    * For example, both 'o' and 'l' are multiple in "hollow", but 'h' is not. 
-    * @return the first repeated character, or 0 if none found
+    * Gets the first multiply occuring character.
     */
    public char firstMultipleCharacter()
    {
@@ -59,9 +52,7 @@ public class WordAnalyzer
    }
 
    /**
-    * Counts the groups of repeated characters. For example, "mississippi!!!" has 
-    * four such groups: ss, ss, pp and !!!.
-    * @return the number of repeated character groups 
+    * Counts the groups of repeated characters.
     */
    public int countRepeatedCharacters()
    {
