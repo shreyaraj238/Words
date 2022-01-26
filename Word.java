@@ -2,20 +2,11 @@ public class Word
 {
    private String text;
 
-   /**
-      Constructs a word.
-      @param text the characters in this word
-   */
    public Word(String text)
    {
       this.text = text;
    }
-
-   /**
-      Tests whether a letter is a vowel
-      @param letter a string of length 1
-      @return true if letter is a vowel
-    */
+   
    public boolean isVowel(String letter)
    {
       return "aeiouy".contains(letter.toLowerCase());
